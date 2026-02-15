@@ -13,7 +13,7 @@ This allows you to run a **Proxmox VM inside your Proxmox Host**, effectively gi
     *   **OS**: Linux.
     *   **CPU**: **CRITICAL** — Set Type to **`Host`**. This enables nested virtualization instructions to pass through.
     *   **RAM**: Give it at least 8GB (for AI testing).
-    *   **Disk**: 32GB is enough.
+    *   **Disk**: 16GB, 32 is recommended.
     *   **Network**: Bridged (vmbr0).
 
 ## ⚙️ Step 2: Enable "MacVTap" (Optional) or Promiscuous Mode
